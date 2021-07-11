@@ -1,3 +1,7 @@
 {
-  "extends": ["next", "next/core-web-vitals","eslint:recommended","plugin:tailwind/recommended","prettier"]
+  "extends": ["next", "next/core-web-vitals","eslint:recommended","plugin:tailwind/recommended","prettier"],
+  "globals": {
+    "process": true,
+    "global": true,
+  }
 }
